@@ -1,0 +1,49 @@
+{
+  "revision_id": "644d3a0d99704224fcea11c66ae4ec70ba85460995a41f2870665d626caa4003",
+  "name": "tar",
+  "run_list": [
+    "recipe[tar::default]",
+    "recipe[tar::testing]"
+  ],
+  "cookbook_locks": {
+    "tar": {
+      "version": "0.7.0",
+      "identifier": "66c3de7594bd592098fb282d30a10b0ca9e3d996",
+      "dotted_decimal_identifier": "28925807847325017.9175403733004449.12149017794966",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": "8d1649d3a4fae2c9737ceb7e29a88d107c517352",
+        "working_tree_clean": true,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/master"
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "tar",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "tar (0.7.0)": [
+
+      ]
+    }
+  }
+}
